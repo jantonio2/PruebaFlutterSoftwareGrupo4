@@ -1,4 +1,15 @@
 Pagina Web
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/margenes.css">
+    <link rel="stylesheet" href="CSS/columnas.css">
+    <link rel="stylesheet" href="CSS/hover.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;700&display=swap" rel="stylesheet">
+    
+</head>
 <body>
     <header><h1 class="titulo">¡Hogar Feliz!</h1></header>
     <nav>
