@@ -1,0 +1,29 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Vector;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+
+public class noroeste extends JPanel implements MouseListener  {
+    JButton btnMax,btnMin;
+    int[][] Nor;
+    private int[][] MatrizSolucion;
+    private Vector<Nodo> nodos;
+    private Vector<Arista> aristas;
+    int r, c;
+    JFrame ven = new JFrame("Grafo");
+    GrafoNoroeste grafo1;
+
+    public noroeste(int[][] nor, int r, int c) {
+        Nor = nor;
+        this.r = r;
+        this.c = c;
+        ejecutar(Nor,r,c);
+    }
