@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Contactos</title>
+        <title>Modificacion Kevin</title>
         <link href="https://fonts.googleapis.com/css2?family=Lemonada&family=Mulish:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/contactos.css">
     </head>
@@ -21,6 +21,11 @@
             <div class="correo">
                  Ingrese su correo: <input class="input" name="ingresatexto" type="text"  />
                  <input class="button" type="button" value="Enviar">
+            </div> 
+
+            <div class="texto">
+                 Ingrese su texto : <input class="input" name="ingresatexto" type="text"  />
+                 <input class="button" type="button" value="TextoNombre">
             </div> 
             
         </article>
