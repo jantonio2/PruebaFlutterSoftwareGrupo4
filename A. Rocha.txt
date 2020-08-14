@@ -14,7 +14,7 @@
             
             <div class="label">
                <center>
-                    Envíe su correo
+                    Envï¿½e su correo
                </center>
                
             </div>
