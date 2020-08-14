@@ -22,6 +22,12 @@
                  Ingrese su correo: <input class="input" name="ingresatexto" type="text"  />
                  <input class="button" type="button" value="Enviar">
             </div> 
+
+            <div class="texto">
+                 Ingrese su texto : <input class="input" name="ingresatexto" type="text"  />
+                 <input class="button" type="button" value="TextoNombre">
+            </div> 
+            
         </article>
     </body>
 </html>
